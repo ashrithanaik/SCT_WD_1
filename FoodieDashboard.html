@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Foodie Dashboard</title>
+        <link rel="Stylesheet" href="Foodie.css">
+    </head>
+
+    <body>
+        <header id="navbar">
+            <div class="Three">Hello User!</div>    
+            <!--<nav>
+                <a href="#home">Home</a>
+                <a href="#catergory">Catergory</a>
+                <a href="#contact">Contact</a>
+            </nav>-->
+        </header>
+        
+        <section class="Four">
+        <h1>Vegetarians Assemble Here!</h1>
+        <p>Yes...You saw it right</p>
+        </section>
+
+        <section class="Four">
+            <h1>Catergories</h1>
+            <nav class="Five">
+                <a href="Tiffins.html">Tiffins</a>
+                <a href="Pizza.html">Pizza</a>
+                <a href="Burger.html">Burger</a>
+            </nav>
+        </section>
+
+        <section class="Four">
+            <h1>Contact</h1>
+            <p>For ordering call &#128222; 6789469635</p>
+        </section>
+        
+        <script>
+          const navbar = document.getElementById('navbar');
+          window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+               navbar.classList.add('scrolled');
+            } else {
+               navbar.classList.remove('scrolled');
+            }
+        });
+       </script>
+
+    </body>
+</html>
