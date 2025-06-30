@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Foodie</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+QLD+Hand:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+            body{
+                font-family: "Caveat", cursive;
+                text-align: center;
+                font-size: 2vw;
+                color: whitesmoke;
+                margin: 0;
+                padding-top: 135px;
+                height: 91vh;
+                background-image: url("Food.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+            }
+            .One{
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 2.2vw;
+            }
+            #but{
+                background-color: whitesmoke;
+                font-size: 24px;
+            }
+            .textbox{
+                background-color: rgb(0,0,0,0.5);
+                padding: 10px 5px 2px 5px;
+                border-radius: 10px;
+                width: fit-content;
+                text-align: center;
+                margin: auto;
+                position: fixed;
+                left: 500px;
+            }
+            @media (max-width: 600px){
+                body{
+                    font-size: 4.5vw;
+                    padding-top: 25vh;
+                    margin: 0;
+                    height: 95vh;
+                    background-image: url("Food.jpg");
+                    background-size: cover;
+                }
+                .One{
+                    font-size: 4.5vw;
+                }
+                #but{
+                    font-size: 27px;
+                }
+                .textbox{
+                    position: fixed;
+                    left: 20vw;
+                    bottom: 75vw;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="textbox">
+        <h1>Welcome To Foodie</h1>
+        <p class="One">Where food meets your mood</p>
+        <button id="but" onclick="document.location='FoodieDashboard.html'">Click Me!</button>
+        </div>
+    </body>
+</html>

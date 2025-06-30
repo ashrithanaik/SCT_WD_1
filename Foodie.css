@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: orchid;
+    color: white;
+}
+header{
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    transition: background 0.3s;
+    z-index: 1000;
+}
+header.scrolled{
+    background: darkmagenta;
+}
+nav{
+    padding-right: 5rem;
+    display: flex;
+    gap: 40px;
+}
+.Three{
+    font-weight: bold;
+    font-size: 2rem;
+}
+nav a{
+    color: white;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+nav a:hover{
+    color: #00e0ff;
+}
+.Four{
+    height: 47rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5rem;
+}
+.Four h1{
+    font-size: 3rem;
+    color: white;
+    justify-content: center;
+}
+.Four p{
+    max-width: 600px;
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+}
+.Four_1{
+    text-align: center;
+}
+.Four_1 h1{
+    font-size: 40px;
+}
+.Four_1 p{
+    font-size: 30px;
+}
+.Five{
+    font-size: 35px;
+    display: flex;
+    padding-left: 75px;
+    gap: 40px;
+}
+.Seven{
+    display: flex;
+    gap: 255px;
+}
+.Seven_1{
+    display: flex;
+    gap: 420px;
+}
+.Seve{
+    display: flex;
+    gap: 200px;
+}
+.Seve_1{
+    
+    display: flex;
+    gap: 360px;
+}
+.Eight{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.click{
+    font-size: 30px;
+}
